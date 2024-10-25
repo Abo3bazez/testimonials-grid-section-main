@@ -1,0 +1,114 @@
+body {
+  font-family: "Barlow Semi Condensed";
+  font-weight: 500;
+  background-color: #ecf2f8;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    body main .wrapper {
+      margin: 4.5rem 1.5rem;
+      display: grid;
+      gap: 1.2rem;
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+      body main .wrapper article {
+        border-radius: 0.5rem;
+        padding: 1.5rem 2.125rem; }
+        body main .wrapper article header {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 0.725rem; }
+          body main .wrapper article header .box {
+            color: white; }
+            body main .wrapper article header .box .name {
+              margin-bottom: 0.25rem; }
+            body main .wrapper article header .box .status {
+              opacity: 50%;
+              font-size: 13px; }
+          body main .wrapper article header img {
+            width: 2.125rem;
+            border-radius: 50%;
+            margin-right: 1.25rem; }
+        body main .wrapper article:nth-child(1) {
+          background-color: #7541c8;
+          position: relative; }
+          body main .wrapper article:nth-child(1)::before {
+            content: url(../Assets/images/bg-pattern-quotation.svg);
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            right: 1.25rem; }
+        body main .wrapper article section {
+          position: relative;
+          line-height: 1.4; }
+        body main .wrapper article .qoute-head {
+          font-size: 1.25rem;
+          color: white;
+          margin-bottom: 0.75rem;
+          font-weight: 600; }
+        body main .wrapper article .qoute {
+          color: white;
+          opacity: 70%;
+          font-size: 14px; }
+        body main .wrapper article:nth-child(1) header img, body main .wrapper article:nth-child(4) header img {
+          border: 3px solid #997acb; }
+        body main .wrapper article:nth-child(2) {
+          background-color: #48556a; }
+        body main .wrapper article:nth-child(3), body main .wrapper article:last-child {
+          background-color: white; }
+          body main .wrapper article:nth-child(3) header .box, body main .wrapper article:last-child header .box {
+            color: #48556a; }
+          body main .wrapper article:nth-child(3) section, body main .wrapper article:last-child section {
+            color: #48556a; }
+        body main .wrapper article:nth-child(4) {
+          background-color: #19212e; }
+  body .attribution {
+    margin: 1.3rem 0; }
+    body .attribution a {
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block; }
+      body .attribution a:not(:last-child) {
+        margin-bottom: 0.65rem; }
+
+@media screen and (min-width: 48rem) {
+  .wrapper {
+    width: 48rem; } }
+@media screen and (min-width: 75rem) {
+  .wrapper {
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, -webkit-fit-content);
+    grid-template-rows: repeat(2, fit-content); }
+    .wrapper article:nth-child(1) {
+      grid-area: 1/1/2/3; }
+    .wrapper article:nth-child(2) {
+      grid-area: 1/3/2/4; }
+    .wrapper article:nth-child(3) {
+      grid-area: 2/1/3/2;
+      -webkit-box-shadow: 17px 17px 14px -16px #cfcfcf;
+              box-shadow: 17px 17px 14px -16px #cfcfcf; }
+    .wrapper article:nth-child(4) {
+      grid-area: 2/2/3/4; }
+    .wrapper article:nth-child(5) {
+      grid-area: 1/4/3/5;
+      -webkit-box-shadow: 17px 17px 14px -16px #cfcfcf;
+              box-shadow: 17px 17px 14px -16px #cfcfcf; } }
+
+/*# sourceMappingURL=main.css.map */
