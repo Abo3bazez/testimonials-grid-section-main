@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution Repo](https://github.com/Abo3bazez/Testimonials-Grid-Section-Main)
-- Live Site URL: [Live Site](https://abo3bazez.github.io/Testimonials-Grid-Section-Main/)
+- Live Site URL: [Live Site](https://abo3bazez.github.io/testimonials-grid-section-main/)
 
 ## My process
 
